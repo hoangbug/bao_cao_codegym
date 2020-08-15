@@ -1,0 +1,126 @@
+/* CSS - Event */
+
+#event {
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    /* font-size: 0px; */
+}
+
+#event .content-event {
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.content-event .tittle-event {
+    margin-bottom: 25px;
+}
+
+.content-event .contentBx {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentBx .event-box1 {
+    position: relative;
+}
+
+.contentBx .event-box1 .img-event1 {
+    position: relative;
+}
+
+.contentBx .event-box1 .img-event1:hover~.text-event1,
+.contentBx .event-box1 .img-event1:hover~.btn-event1 {
+    opacity: 1;
+}
+
+.contentBx .event-box1 .text-event1 {
+    position: absolute;
+    bottom: 30%;
+    left: 57%;
+    color: #fff;
+    font-size: 12px;
+    width: 275px;
+    line-height: 1.8;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.contentBx .event-box1 .text-event1:hover {
+    opacity: 1;
+}
+
+.contentBx .event-box1 .btn-event1 {
+    position: absolute;
+    bottom: 10%;
+    left: 70%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #11aa59;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.contentBx .event-box1 .btn-event1:hover {
+    background-color: #8C2025;
+    opacity: 1;
+}
+
+.contentBx .event-box2 {
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentBx .event-box3 {
+    position: relative;
+}
+
+.contentBx .event-box3 .img-event3 {
+    position: relative;
+}
+
+.contentBx .event-box3 .img-event3:hover~.btn-event3 {
+    opacity: 1;
+}
+
+.contentBx .event-box3 .btn-event3 {
+    position: absolute;
+    top: 76%;
+    left: 20%;
+    color: #fff;
+    text-decoration: none;
+    background: #11aa59;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.contentBx .event-box3 .btn-event3:hover {
+    background-color: #8C2025;
+    opacity: 1;
+}
+
+
+/* CSS Products */
+
+#products {
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    /* font-size: 0px; */
+}

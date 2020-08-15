@@ -1,0 +1,48 @@
+#shop-cart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#shop-cart .shop-cart-product {
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#shop-cart .shop-cart-product .table-box {
+    text-align: center;
+}
+
+.table-box #total-box {
+    width: 90px;
+    padding: 5px 2px 5px 10px;
+}
+
+table thead tr {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+
+table tbody tr {
+    display: block;
+    border: 2px solid #000;
+    height: 150px;
+    line-height: 150px;
+}
+
+table tbody tr .box1 {
+    width: 600px;
+}
+
+table tbody tr .box3 {
+    width: 200px;
+}
+
+table tbody tr td {
+    width: 100px;
+}

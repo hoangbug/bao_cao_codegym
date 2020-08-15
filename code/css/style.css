@@ -1,0 +1,429 @@
+/* CSS - About us */
+
+#about-us {
+    width: 1366px;
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#about-us .content-about {
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.content-about .tittle-about {
+    margin-bottom: 25px;
+}
+
+.content-about .contentBx-about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentBx-about .conbox1,
+.contentBx-about .conbox3 {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
+
+.contentBx-about .conbox1 .box1 {
+    text-align: right;
+}
+
+.contentBx-about .conbox2 {
+    position: relative;
+    position: relative;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentBx-about .conbox2 .imgbox {
+    position: relative;
+}
+
+.contentBx-about .conbox2 .text1 {
+    position: absolute;
+    bottom: 25%;
+    left: 18%;
+    width: 426px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.contentBx-about .conbox2 .btn-about {
+    position: absolute;
+    bottom: 17%;
+    left: 42%;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.contentBx-about .conbox2 .btn-about:hover {
+    background-color: #11aa59;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+/* CSS - Event */
+
+#event {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
+    background: #fff;
+}
+
+#event .content-event {
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px 0; */
+}
+
+.content-event .tittle-event {
+    margin-bottom: 25px;
+}
+
+.content-event .contentBx {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentBx .event-box1 {
+    position: relative;
+}
+
+.contentBx .event-box1 .img-event1 {
+    position: relative;
+}
+
+.contentBx .event-box1 .img-event1:hover~.text-event1,
+.contentBx .event-box1 .img-event1:hover~.btn-event1 {
+    opacity: 1;
+}
+
+.contentBx .event-box1 .text-event1 {
+    position: absolute;
+    bottom: 30%;
+    left: 57%;
+    color: #fff;
+    font-size: 12px;
+    width: 275px;
+    line-height: 1.8;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.contentBx .event-box1 .text-event1:hover {
+    opacity: 1;
+}
+
+.contentBx .event-box1 .btn-event1 {
+    position: absolute;
+    bottom: 10%;
+    left: 70%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #11aa59;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.contentBx .event-box1 .btn-event1:hover {
+    background-color: #8C2025;
+    opacity: 1;
+}
+
+.contentBx .event-box2 {
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentBx .event-box3 {
+    position: relative;
+}
+
+.contentBx .event-box3 .img-event3 {
+    position: relative;
+}
+
+.contentBx .event-box3 .img-event3:hover~.btn-event3 {
+    opacity: 1;
+}
+
+.contentBx .event-box3 .btn-event3 {
+    position: absolute;
+    top: 76%;
+    left: 20%;
+    color: #fff;
+    text-decoration: none;
+    background: #11aa59;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.contentBx .event-box3 .btn-event3:hover {
+    background-color: #8C2025;
+    opacity: 1;
+}
+
+
+/* CSS Products */
+
+#products {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin: 0 auto !important;
+}
+
+#products .content-products {
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*margin: 30px 0;*/
+}
+
+
+/* CSS - Gallery */
+
+#gallery {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin: 0 auto !important;
+}
+
+#gallery .content-gallery {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    position: relative;
+    flex-direction: column;
+}
+
+.content-gallery .gallerybox {
+    position: relative;
+}
+
+.content-gallery .list-gallery {
+    width: 1366px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-gallery .list-box {
+    height: 300px;
+    overflow: hidden;
+}
+
+.list-gallery .list-box .zoom {
+    display: inline-block;
+    position: relative;
+    cursor: crosshair;
+}
+
+.list-gallery .list-box .zoom p {
+    position: absolute;
+    top: 10px;
+    left: 28px;
+    background: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+/* CSS - Blog */
+
+#blog {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin: 0 auto !important;
+}
+
+#blog .content-blog {
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+#blog .content-blog .title-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0 30px 0;
+}
+
+.content-blog .title-blog p {
+    width: 50%;
+}
+
+#blog .content-blog .list-blog {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 408px;
+}
+
+.content-blog .list-blog .listBx {
+    width: 370px;
+    height: 423px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-blog .listBx span {
+    font-style: italic;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.list-blog .listBx p {
+    font-size: 14px;
+}
+
+.list-blog .listBx a {
+    text-decoration: none;
+    color: #fff;
+    background: #11AA59;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: max-content;
+    transition: 0.4s;
+}
+
+.list-blog .listBx a:hover {
+    background: #da0813;
+    font-size: 20px;
+}
+
+
+/* CSS - Contact us */
+
+#contact {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
+    background: #fff;
+}
+
+#contact .content-contact {
+    width: 1366px;
+    padding: 30px 0;
+    position: relative;
+}
+
+#contact .content-contact .bg-contact {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#contact .content-contact .logo-contact {
+    position: absolute;
+    top: 6%;
+    left: 38%;
+}
+
+#contact .content-contact form {
+    position: absolute;
+    top: 19%;
+    left: 38%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-contact form input {
+    border: 1px solid #D1CECE;
+    margin: 4px 0;
+    height: 50px;
+    width: 325px;
+    padding: 0 5px 0 20px;
+    transition: all ease 0.5s;
+}
+
+.content-contact form input:hover,
+.content-contact form textarea:hover {
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.content-contact form textarea {
+    border: 1px solid #D1CECE;
+    padding: 10px 0 5px 20px;
+    transition: all ease 0.5s;
+}
+
+.content-contact .btn-form {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+
+.content-contact .btn-form a {
+    text-decoration: none;
+    background: #11AA59;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.content-contact .btn-form a:hover {
+    background-color: #da0813;
+    font-size: 20px;
+}

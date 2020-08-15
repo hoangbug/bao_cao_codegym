@@ -1,0 +1,247 @@
+/* CSS - Detail */
+
+#detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#detail .detail-content {
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#detail .detail-content .tittle-detail {
+    width: 90%;
+    margin: 25px;
+}
+
+.tittle-detail a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+}
+
+#detail .detail-content .content-detail-middle {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-detail-middle .top-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-box h3 {
+    margin: 10px 0;
+    color: #11AA59;
+    font-size: 25px;
+}
+
+.detail-box span {
+    font-weight: 600;
+}
+
+.detail-box .textdetail {
+    margin: 10px 0;
+}
+
+.detail-box .sum-box {
+    display: flex;
+    align-items: center;
+}
+
+.detail-box .sum-box input {
+    padding-left: 8px;
+    border: 3px solid #eee;
+    height: 45px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.detail-box .sum-box input:hover {
+    border: 3px solid #000;
+}
+
+.detail-box .sum-box .many-box {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.detail-box .button-box {
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #11aa59;
+    color: #fff;
+    border: none;
+}
+
+.detail-box .button-box:hover {
+    background-color: #005500;
+    cursor: pointer;
+}
+
+.content-detail-middle .bottom-detail {
+    display: flex;
+    margin-top: 28px;
+}
+
+.bottom-detail .detail-img-left {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-detail .text-box {
+    width: 50%;
+    margin-left: 3.5%;
+}
+
+.bottom-detail .text-box .tittle-head {
+    display: flex;
+    height: 50px;
+    border-bottom: 2px solid #DBDBDB;
+    margin-bottom: 20px;
+}
+
+.tittle-head li {
+    list-style: none;
+    padding: 0 20px 0 0;
+}
+
+.tittle-head li a {
+    text-decoration: none;
+    color: #DBDBDB;
+    font-weight: 700;
+    transition: 0.3s;
+    font-size: 23px;
+}
+
+.tittle-head li .active {
+    color: #11AA59;
+}
+
+.tittle-head li a:hover {
+    color: #11AA59;
+}
+
+
+/* CSS - Event */
+
+#event {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#event .content-event {
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.content-event .tittle-event {
+    margin-bottom: 25px;
+}
+
+.content-event .contentBx {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentBx .event-box1 {
+    position: relative;
+}
+
+.contentBx .event-box1 .img-event1 {
+    position: relative;
+}
+
+.contentBx .event-box1 .img-event1:hover~.text-event1,
+.contentBx .event-box1 .img-event1:hover~.btn-event1 {
+    opacity: 1;
+}
+
+.contentBx .event-box1 .text-event1 {
+    position: absolute;
+    bottom: 30%;
+    left: 57%;
+    color: #fff;
+    font-size: 12px;
+    width: 275px;
+    line-height: 1.8;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.contentBx .event-box1 .text-event1:hover {
+    opacity: 1;
+}
+
+.contentBx .event-box1 .btn-event1 {
+    position: absolute;
+    bottom: 10%;
+    left: 70%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #11aa59;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.contentBx .event-box1 .btn-event1:hover {
+    background-color: #8C2025;
+    opacity: 1;
+}
+
+.contentBx .event-box2 {
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentBx .event-box3 {
+    position: relative;
+}
+
+.contentBx .event-box3 .img-event3 {
+    position: relative;
+}
+
+.contentBx .event-box3 .img-event3:hover~.btn-event3 {
+    opacity: 1;
+}
+
+.contentBx .event-box3 .btn-event3 {
+    position: absolute;
+    top: 76%;
+    left: 20%;
+    color: #fff;
+    text-decoration: none;
+    background: #11aa59;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.contentBx .event-box3 .btn-event3:hover {
+    background-color: #8C2025;
+    opacity: 1;
+}
